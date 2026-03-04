@@ -5,10 +5,9 @@ function App() {
 
   return (
     <div>
-      <h1>Button Counter</h1>
-      <p>{count}</p>
+      <p>Button clicked {count} times</p>
       <button onClick={() => setCount(count + 1)}>
-        Increment
+        Click Me
       </button>
     </div>
   );
